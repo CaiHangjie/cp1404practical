@@ -1,0 +1,6 @@
+text = input("Enter text: ")
+print(f"Uppercase: {text.upper()}")
+print(f"Lowercase: {text.lower()}")
+print(f"Title Case: {text.title()}")
+print(f"Length: {len(text)}")
+print(f"First character: {text[0] if text else 'N/A'}")
